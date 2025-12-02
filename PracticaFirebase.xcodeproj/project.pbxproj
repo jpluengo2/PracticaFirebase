@@ -11,6 +11,7 @@
 		6C7D2A7B2EDD94780037A8D7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6C7D2A7A2EDD94780037A8D7 /* FirebaseAuth */; };
 		6C7D2A7D2EDD94780037A8D7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 6C7D2A7C2EDD94780037A8D7 /* FirebaseDatabase */; };
 		6C7D2A7F2EDD94780037A8D7 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6C7D2A7E2EDD94780037A8D7 /* FirebaseFirestore */; };
+		6CD229562EDF06D700DE84EF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD229552EDF06D700DE84EF /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		6C6B81182ED99236005E4340 /* PracticaFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PracticaFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6B81312ED99237005E4340 /* PracticaFirebaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaFirebaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C6B813B2ED99237005E4340 /* PracticaFirebaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PracticaFirebaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD229552EDF06D700DE84EF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -99,6 +101,7 @@
 		6C6B810F2ED99235005E4340 = {
 			isa = PBXGroup;
 			children = (
+				6CD229552EDF06D700DE84EF /* HomeViewController.swift */,
 				6C6B811A2ED99236005E4340 /* PracticaFirebase */,
 				6C6B81342ED99237005E4340 /* PracticaFirebaseTests */,
 				6C6B813E2ED99237005E4340 /* PracticaFirebaseUITests */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CD229562EDF06D700DE84EF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
